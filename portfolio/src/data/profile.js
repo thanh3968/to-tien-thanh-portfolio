@@ -4,13 +4,13 @@ export const profile = {
   shortName: 'Thành',
   initials: 'TTT',
   role: 'Electronics & Telecommunications Engineering Student',
-  specialty: 'Embedded Systems - Computer Vision - IoT',
+  specialty: 'Embedded Systems - Computer Vision - IoT - AI Web Apps',
   tagline:
-    'I build practical engineering projects across embedded systems, STM32 firmware, UART interfaces, and computer vision automation.',
+    'I build practical engineering projects across embedded systems, STM32 firmware, UART interfaces, computer vision automation, and AI-powered web tools.',
   description:
-    'I am studying Electronics and Telecommunications Engineering at the University of Transport and Communications, with hands-on experience in embedded systems, computer vision, and IoT-oriented projects.',
+    'I am studying Electronics and Telecommunications Engineering at the University of Transport and Communications, with hands-on experience in embedded systems, computer vision, IoT-oriented projects, and basic AI applications.',
   about: [
-    'I am an engineering student focused on turning classroom knowledge into working prototypes. My current work combines firmware development, sensor communication, serial command interfaces, and real-time data display.',
+    'I am an engineering student focused on turning classroom knowledge into working prototypes. My current work combines firmware development, sensor communication, serial command interfaces, computer vision, and AI-assisted web applications.',
     'My learning direction is centered on Embedded Systems, STM32 development, UART/I2C communication, computer vision, and applied AI. I enjoy building projects that connect hardware behavior with useful software logic.',
   ],
   email: 'lunatoez336@gmail.com',
@@ -30,7 +30,7 @@ export const navLinks = [
 export const stats = [
   { value: '2027', label: 'Expected graduation' },
   { value: '3.0', label: 'GPA / 4.0' },
-  { value: '02+', label: 'Technical projects' },
+  { value: '04+', label: 'Technical projects' },
 ]
 
 export const education = {
@@ -73,7 +73,7 @@ export const skillGroups = [
   {
     title: 'Libraries / Tools',
     icon: 'tools',
-    description: 'Tools for computer vision, automation, and development workflow.',
+    description: 'Tools for computer vision, automation, AI, and development workflow.',
     skills: ['OpenCV', 'MediaPipe', 'Ultralytics YOLO', 'NumPy', 'PyAutoGUI', 'Git', 'Linux', 'LaTeX'],
   },
   {
@@ -116,6 +116,20 @@ export const projects = [
   },
   {
     number: '03',
+    title: 'English AI Checker',
+    description:
+      'An AI-powered English checking web app that helps users review writing, improve grammar, and refine sentences through a clean browser interface.',
+    features: [
+      'Provides a simple web interface for entering English text and receiving AI-assisted feedback.',
+      'Focuses on grammar, clarity, sentence improvement, and practical writing support.',
+      'Deployed publicly on Vercel for quick access from any device.',
+    ],
+    technologies: ['AI', 'JavaScript', 'Web App', 'Vercel'],
+    github: 'https://english-ai-checker.vercel.app/',
+    accent: 'blue',
+  },
+  {
+    number: '04',
     title: 'Personal Portfolio',
     description:
       'A modern responsive portfolio website presenting my education, internship experience, technical skills, and selected engineering projects.',
@@ -126,7 +140,6 @@ export const projects = [
     ],
     technologies: ['React', 'Vite', 'Tailwind CSS', 'Vercel'],
     github: 'https://github.com/thanh3968/to-tien-thanh-portfolio',
-    accent: 'blue',
+    accent: 'cyan',
   },
 ]
-
