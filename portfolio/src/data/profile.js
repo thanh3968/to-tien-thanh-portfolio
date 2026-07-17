@@ -1,10 +1,10 @@
-﻿// Edit this file to update portfolio content without touching the components.
+// Edit this file to update portfolio content without touching the components.
 export const profile = {
-  name: 'TÃ´ Tiáº¿n ThÃ nh',
-  shortName: 'ThÃ nh',
+  name: 'Tô Tiến Thành',
+  shortName: 'Thành',
   initials: 'TTT',
   role: 'Electronics & Telecommunications Engineering Student',
-  specialty: 'Embedded Systems Â· Computer Vision Â· IoT',
+  specialty: 'Embedded Systems - Computer Vision - IoT',
   tagline:
     'I build practical engineering projects across embedded systems, STM32 firmware, UART interfaces, and computer vision automation.',
   description:
