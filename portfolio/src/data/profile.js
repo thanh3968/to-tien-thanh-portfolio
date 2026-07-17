@@ -101,6 +101,20 @@ export const projects = [
   },
   {
     number: '02',
+    title: 'English AI Checker',
+    description:
+      'An AI-powered English checking web app that helps users review writing, improve grammar, and refine sentences through a clean browser interface.',
+    features: [
+      'Provides a simple web interface for entering English text and receiving AI-assisted feedback.',
+      'Focuses on grammar, clarity, sentence improvement, and practical writing support.',
+      'Deployed publicly on Vercel for quick access from any device.',
+    ],
+    technologies: ['AI', 'JavaScript', 'Web App', 'Vercel'],
+    github: 'https://english-ai-checker.vercel.app/',
+    accent: 'blue',
+  },
+  {
+    number: '03',
     title: 'STM32 UART Command Interface for Environmental Monitoring',
     description:
       'An embedded system on STM32F407G for monitoring temperature and humidity with UART commands, I2C sensor communication, and OLED display output.',
@@ -113,20 +127,6 @@ export const projects = [
     technologies: ['Embedded C', 'STM32CubeIDE', 'STM32F407G', 'UART', 'I2C', 'SHT3X', 'SSD1306 OLED'],
     github: 'https://github.com/thanh3968/uart_f407g',
     accent: 'violet',
-  },
-  {
-    number: '03',
-    title: 'English AI Checker',
-    description:
-      'An AI-powered English checking web app that helps users review writing, improve grammar, and refine sentences through a clean browser interface.',
-    features: [
-      'Provides a simple web interface for entering English text and receiving AI-assisted feedback.',
-      'Focuses on grammar, clarity, sentence improvement, and practical writing support.',
-      'Deployed publicly on Vercel for quick access from any device.',
-    ],
-    technologies: ['AI', 'JavaScript', 'Web App', 'Vercel'],
-    github: 'https://english-ai-checker.vercel.app/',
-    accent: 'blue',
   },
   {
     number: '04',
