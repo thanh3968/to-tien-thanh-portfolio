@@ -1,7 +1,7 @@
 // Edit this file to update portfolio content without touching the components.
 export const profile = {
-  name: 'Tô Tiến Thành',
-  shortName: 'Thành',
+  name: 'T\u00f4 Ti\u1ebfn Th\u00e0nh',
+  shortName: 'Th\u00e0nh',
   initials: 'TTT',
   role: 'Electronics & Telecommunications Engineering Student',
   specialty: 'Embedded Systems - Computer Vision - IoT - AI Web Apps',
@@ -110,7 +110,8 @@ export const projects = [
       'Deployed publicly on Vercel for quick access from any device.',
     ],
     technologies: ['AI', 'JavaScript', 'Web App', 'Vercel'],
-    github: 'https://english-ai-checker.vercel.app/',
+    github: 'https://github.com/thanh3968/english_AI_Checker',
+    website: 'https://english-ai-checker.vercel.app/',
     accent: 'blue',
   },
   {
