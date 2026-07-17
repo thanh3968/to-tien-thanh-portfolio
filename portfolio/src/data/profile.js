@@ -1,10 +1,10 @@
-// Edit this file to update portfolio content without touching the components.
+﻿// Edit this file to update portfolio content without touching the components.
 export const profile = {
-  name: 'Tô Tiến Thành',
-  shortName: 'Thành',
+  name: 'TÃ´ Tiáº¿n ThÃ nh',
+  shortName: 'ThÃ nh',
   initials: 'TTT',
   role: 'Electronics & Telecommunications Engineering Student',
-  specialty: 'Embedded Systems · Computer Vision · IoT',
+  specialty: 'Embedded Systems Â· Computer Vision Â· IoT',
   tagline:
     'I build practical engineering projects across embedded systems, STM32 firmware, UART interfaces, and computer vision automation.',
   description:
@@ -13,7 +13,7 @@ export const profile = {
     'I am an engineering student focused on turning classroom knowledge into working prototypes. My current work combines firmware development, sensor communication, serial command interfaces, and real-time data display.',
     'My learning direction is centered on Embedded Systems, STM32 development, UART/I2C communication, computer vision, and applied AI. I enjoy building projects that connect hardware behavior with useful software logic.',
   ],
-  email: 'thanhto1257@gmail.com',
+  email: 'lunatoez336@gmail.com',
   github: 'https://github.com/thanh3968',
   location: 'Vietnam',
   availability: 'Available for internships, projects, and collaboration',
@@ -129,3 +129,4 @@ export const projects = [
     accent: 'blue',
   },
 ]
+
